@@ -1,0 +1,9 @@
+name: HCL AppScan CodeSweep
+on: 
+  pull_request:
+    branches: 
+      - main
+jobs:
+  appscan:
+    name: Run AppScan
+    uses: HCL-TECH-SOFTWARE/appscan-codesweep-action@v2.1d
